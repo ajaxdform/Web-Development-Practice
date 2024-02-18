@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #212529;
+        }
+
+        #headline {
+            text-align: center; 
+            background-color: blueviolet; 
+            padding: 10px 10px; 
+            border-radius: 30px;
+        }
+
+        #combine {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            /* justify-content: center; */
+            /* height: 100vh; Set the height to 100% of the viewport height for vertical centering */
+        }
+
+        footer {
+            background-color: #212529;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container my-lg-5">
+        <h2 class="text-white" id="headline">PDF-X Your Favorite PDF file Merger</h2>
+        <form class="" action="/merge" method="post" enctype="multipart/form-data">
+            <div class="mb-3 text-center" id="combine">
+                <label for="formFile" class="form-label text-white">Choose Files to Merge</label>
+                <input class="form-control w-25" name="pdfs" type="file" id="formFile" multiple accept=".PDF">
+                <input class="btn btn btn-outline-secondary my-4 btn-lg" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>2023@Shubham</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
