@@ -1,7 +1,7 @@
 
 # Web Development Practice Projects
 
-I've implemeneted some small ideas into action to evaluate & explore my Web Development skills, it includes like HTML, CSS, Javascript, Node.js & Express.js
+I've implemeneted some small ideas into action to evaluate & explore my Web Development skills, it includes like HTML, CSS, Javascript, Node.js & Express.js technologies.
 ## Projects & about
 
 | Project             | Description                                                       |
